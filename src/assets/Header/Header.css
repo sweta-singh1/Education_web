@@ -1,0 +1,47 @@
+* {
+  font-family: cursive;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  background-image: url("/public/Img2.jpg"); /* Adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+/* Name styling */
+.header-name h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.header-name span {
+  color: #00d4ff; /* Highlight color for name */
+}
+
+/* Search bar styling */
+.search {
+  width: 400px;
+  position: relative;
+}
+
+.search-box {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
