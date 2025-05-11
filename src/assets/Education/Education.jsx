@@ -7,7 +7,7 @@ const Education = () => {
       <div className="education-first">
         <h2>Education</h2>
         <h4>2019-2022 (BCA)</h4>
-        <h4>Babu Banarsi Das University</h4>
+        <h4>Babu Banarsi Das University, Lucknow</h4>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. In,
           laboriosam, beatae deleniti officia tenetur minima ipsam facilis eum
